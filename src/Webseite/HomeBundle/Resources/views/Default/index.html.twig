@@ -1,0 +1,22 @@
+{% extends 'WebseiteHomeBundle::Default/homeLayout.html.twig' %}
+
+{% block body_contain_myContain %}
+
+	 <div>
+	    <h3>{{'app.accueiltitre' | trans}}</h3>
+	    <p>
+	    	{{'app.accueilmsg' | trans}}
+	    </p>
+	    {# <p>
+	    	 {{ 'app.test' | trans}}
+	    </p> #}
+	</div> 
+
+{% endblock %}
+
+
+{% block js_setNavigation %}
+	<script>
+		$('a.btHome').addClass('myActive');
+	</script>
+{% endblock %}

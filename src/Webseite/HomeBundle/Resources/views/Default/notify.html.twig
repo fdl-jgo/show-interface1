@@ -1,0 +1,46 @@
+{% extends 'WebseiteHomeBundle::Default/homeLayout.html.twig' %}
+
+{% block body_contain_myContain %}
+
+	<div class="notify">
+		{{ form_start(form) }}
+			{{ form_errors(form) }}
+			<div>
+				{{ form_label(form.nom, 'app.nom') }}
+				{{ form_errors(form.nom) }}
+				<br />
+				{{ form_widget(form.nom) }}
+			</div>
+			<div>
+				{{ form_label(form.email, 'app.mail') }}
+				{{ form_errors(form.email) }}
+				<br />
+				{{ form_widget(form.email) }}
+			</div>
+			<div>
+				{{ form_label(form.objet, 'app.objet') }}
+				{{ form_errors(form.objet) }}
+				<br />
+				
+				{{ form_widget(form.objet) }}
+			</div>
+			<div class="notify-size-contenu">
+				{{ form_label(form.contenu, 'app.message') }}
+				{{ form_errors(form.contenu) }}
+				<br />
+				{{ form_widget(form.contenu) }}
+			</div>
+			<div class="notify-submit">
+				{{ form_widget(form.save, { 'label': 'app.envoyer' }) }}
+			</div>
+		{{ form_end(form) }}
+	</div>
+
+{% endblock %}
+
+
+{% block js_setNavigation %}
+	<script>
+	$('.myFooter').remove();
+	</script>
+{% endblock %}

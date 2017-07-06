@@ -1,0 +1,7 @@
+app_homepage:
+    path:     /app
+    defaults: { _controller: AppBundle:Default:index }
+
+app_locale_homepage:
+    path:     /app/setLocale
+    defaults: { _controller: AppBundle:Default:setLocale }

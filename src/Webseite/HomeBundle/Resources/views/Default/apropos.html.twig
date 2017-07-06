@@ -1,0 +1,41 @@
+{% extends 'WebseiteHomeBundle::Default/homeLayout.html.twig' %}
+
+{% block body_contain_myContain %}
+
+	<div>
+		<h2>{{ 'app.apropostitre' | trans }}</h2>
+		<h4>{{ 'app.apropostitre1' | trans }}</h4>
+		<p>
+			<span>{{ 'app.apropost1contenu1' | trans }}</span><br />
+			<span>{{ 'app.apropost1contenu2' | trans }}</span><br />
+			<span>{{ 'app.apropost1contenu3' | trans }}</span>
+		</p>
+		<h4>{{ 'app.apropostitre2' | trans }}</h4>
+		<div class="set-contour">
+			<a href="{{ path('webseite_home_notifypage') }}" class="contour">
+				<i class="fa fa-paper-plane-o fa-3x fa-setting" aria-hidden="true"></i><br />
+                <span>{{ 'app.btmessage' | trans }}</span>
+			</a>
+			<a href="{{ path('webseite_home_Aboutuspage') }}" class="contour">
+				<i class="fa fa-facebook fa-3x fa-setting" aria-hidden="true"></i><br />
+                <span>Facebook</span>
+			</a>
+			<a href="{{ path('webseite_home_Aboutuspage') }}" class="contour">
+				<i class="fa fa-youtube fa-3x fa-setting" aria-hidden="true"></i><br />
+                <span>Youtube</span>
+			</a>
+		</div>
+
+		{# <span class="underlined-title"></span>
+		<span class="underlined-title"></span>
+		<span class="underlined-title"></span> #}
+	</div>
+
+{% endblock %}
+
+
+{% block js_setNavigation %}
+	<script>
+		$('a.btAboutus').addClass('myActive');
+	</script>
+{% endblock %}

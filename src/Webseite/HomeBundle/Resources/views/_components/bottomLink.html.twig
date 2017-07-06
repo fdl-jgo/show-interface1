@@ -1,0 +1,21 @@
+<div class="myBottomLink">
+
+	<ul>
+	    <li>
+	    	<span class="btLanguage">{{ 'app.langue' | trans }}</span>
+
+			<div id="myDropdown" class="dropdown-content">
+			    <a href="{{ path('app_locale_homepage', {'_locale': 'fr'}) }}">Français</a><br /> 
+			    <a href="{{ path('app_locale_homepage', {'_locale': 'en'}) }}">English</a><br /> 
+			    <a href="{{ path('app_locale_homepage', {'_locale': 'de'}) }}">Deutsch</a><br /> 
+			    <a href="{{ path('app_locale_homepage', {'_locale': 'nl'}) }}">Nederlands</a>
+		  	</div>
+	    </li>
+
+	    <li>
+	    	<a href="#" class="btDashboard">{{ 'app.tbdbord' | trans }}</a>
+	    </li>
+	</ul>
+	
+
+</div>

@@ -1,0 +1,161 @@
+body {
+	background-color: #A05656;
+	/*border: 3px solid yellow;*/
+}
+
+#site {
+	position: absolute;
+	left: 0px;	
+	top: 0px;
+	width: 100%;
+	color: #fff;
+	/*border: 2px solid green;*/
+}
+
+#site a {
+	color: #fff;
+	text-decoration: none;
+}
+#site a:hover {
+	border: 1px solid #fff;
+}
+#site li {
+	display: inline;
+	/*margin-right: 5px;*/
+	margin-left: 20px;
+}
+/*=========================================*/
+.myBottomLink {
+	display: flex;
+	justify-content: center;
+	/*border-bottom: 1px solid #fff;*/
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #A05656;
+    min-width: 90px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.myBottomLink span:hover {
+	border: 1px solid #fff;
+	cursor:pointer;
+}
+
+/*=========================================*/
+.myNav {
+	display: flex;
+	justify-content: space-around;
+	/*border: 1px solid red;*/
+}
+.myNav ul {
+	margin-bottom: 0;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myNav a {
+	padding: 8px;
+}
+.myActive {
+	border-bottom: 1px solid white;
+}
+
+.myNav span.btHome:hover {
+	cursor: pointer;
+}
+/*=========================================*/
+
+.myContain {
+	border: 1px solid #fff;
+	margin: 50px;
+	padding: 15px;
+	border-radius: 40px;
+	text-align: center;
+}
+/*aboutus*/
+.underlined-title:after {
+	content: "";
+	display: inline-block;
+	width: 100px;
+	height: 5px;
+	background: #BBB3B3;
+	margin-top: 2px;
+}
+
+.set-contour {
+	display: flex;
+    justify-content: center;
+}
+.set-contour .contour{
+	padding: 10px;
+	margin: 15px;
+	border: 1px solid;
+	width: 100px;
+}
+.set-contour .contour:hover{
+	background: #5cbdaa;
+	cursor:pointer;
+
+}
+/*notify*/
+.notify input {
+	color: #5E4646;
+}
+.notify textarea {
+	/*color: #5E4646;*/
+}
+.notify .notify-submit {
+	padding-top: 5px;
+}
+.notify .notify-submit button {
+	background: none;
+	border-radius: 15px;
+	width: 150px;
+}
+.notify .notify-submit button:hover {
+	background: #5cbdaa;
+	opacity: 0.8;
+}
+.notify-size-contenu > div {
+	display: flex;
+	justify-content: space-around;
+	border: none;
+	
+}
+/*=========================================*/
+.myFooter {
+	position: absolute;
+	border-top: 1px solid #fff;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+/*=========================================*/
+
+.fos_user_registration_register label{
+	width: 250px;
+}
+.fos_user_registration_register input{
+	background-color: #8C7676;
+}
+.myfos-submit input{
+	width: 100px;
+	background: none;
+	border-radius: 20px;
+	border: 2px solid #fff;
+}
+
+.myfos-submit input:hover {
+	background-color: #5cbdaa;
+}
+/*login*/
+.myfos-login label {
+	width: 250px;
+}
+.myfos-login > input {
+	background-color: #8C7676;
+}

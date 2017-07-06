@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="nl" datatype="plaintext" original="file.ext">
+    <body>
+    	<!-- test -->
+      <trans-unit id="app.test">
+        <source>app.test</source>
+        <target>goedemorgen!</target>
+      </trans-unit>
+      <!-- form soumission message -->
+      <trans-unit id="app.nom">
+        <source>app.nom</source>
+        <target>Naam:</target>
+      </trans-unit>
+      <trans-unit id="app.mail">
+        <source>app.mail</source>
+        <target>E-mail:</target>
+      </trans-unit>
+      <trans-unit id="app.objet">
+        <source>app.objet</source>
+        <target>Object:</target>
+      </trans-unit>
+      <trans-unit id="app.message">
+        <source>app.message</source>
+        <target>Bericht:</target>
+      </trans-unit>
+      <trans-unit id="app.envoyer">
+        <source>app.envoyer</source>
+        <target>Sturen</target>
+      </trans-unit>
+      <!-- bottomLink -->
+	  <trans-unit id="app.langue">
+        <source>app.langue</source>
+        <target>Nederlands</target>
+      </trans-unit>
+      <trans-unit id="app.tbdbord">
+        <source>app.tbdbord</source>
+        <target>dashboard</target>
+      </trans-unit>
+      <!-- navigationLink -->
+      <trans-unit id="app.accueil">
+        <source>app.accueil</source>
+        <target>Thuis</target>
+      </trans-unit>
+      <trans-unit id="app.apropos">
+        <source>app.apropos</source>
+        <target>Over ons</target>
+      </trans-unit>
+      <trans-unit id="app.connexion">
+        <source>app.connexion</source>
+        <target>Login</target>
+      </trans-unit>
+      <trans-unit id="app.inscription">
+        <source>app.inscription</source>
+        <target>Inschrijven</target>
+      </trans-unit>
+      <!-- Body -->
+            <!-- Body accueil -->
+      <trans-unit id="app.accueiltitre">
+        <source>app.accueiltitre</source>
+        <target>Welkom!</target>
+      </trans-unit>
+      <trans-unit id="app.accueilmsg">
+        <source>app.accueilmsg</source>
+        <target>Het bereiken van je doelen met rosti.be een of andere manier terwijl ze efficiënt.</target>
+      </trans-unit>
+            <!-- Body apropos -->
+      <trans-unit id="app.apropostitre">
+        <source>app.apropostitre</source>
+        <target>ICT's zijn complex. We begrijpen!</target>
+      </trans-unit>
+      <trans-unit id="app.apropostitre1">
+        <source>app.apropostitre1</source>
+        <target>Onze doelstellingen.</target>
+      </trans-unit>
+      <trans-unit id="app.apropost1contenu1">
+        <source>app.apropost1contenu1</source>
+        <target>U vereenvoudigen het zoeken naar informatie.</target>
+      </trans-unit>
+      <trans-unit id="app.apropost1contenu2">
+        <source>app.apropost1contenu2</source>
+        <target>Je presenteert een eenvoudige en gemakkelijk waarneembaar inhoud.</target>
+      </trans-unit>
+      <trans-unit id="app.apropost1contenu3">
+        <source>app.apropost1contenu3</source>
+        <target>U levert accurate en gerichte trucs.</target>
+      </trans-unit>
+      <trans-unit id="app.apropostitre2">
+        <source>app.apropostitre2</source>
+        <target>Neem contact met ons</target>
+      </trans-unit>
+
+      <!-- boodyfooterLink -->
+      <!-- bottom -->
+      <trans-unit id="app.btmessage">
+        <source>app.btmessage</source>
+        <target>bericht</target>
+      </trans-unit>
+
+
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,22 @@
+<div class="myNav">
+	<span class="btHome"><img src="{{ asset('logo.png') }}" alt=""></span>
+	<ul>
+	    <li><a href="{{ path('webseite_home_homepage') }}" class="btHome">{{ 'app.accueil' | trans }}</a></li>
+	    <li><a href="{{ path('webseite_home_Aboutuspage') }}" class="btAboutus">{{ 'app.apropos' | trans }}</a></li>
+	</ul>
+
+	<ul class="forLogin">
+	    {% if not is_granted('IS_AUTHENTICATED_REMEMBERED') %}
+		    <li><a href="{{ path('fos_user_security_login') }}" >{{ 'app.connexion' | trans }}</a></li>
+		    <li><a href="{{ path('fos_user_registration_register') }}">{{ 'app.inscription' | trans }}</a></li>
+	    {% else %}
+		    <a href="#" class="myuser-toggle">
+		        <li><i class="fa fa-user" aria-hidden="true"></i></li>
+				<li>{{ app.user.username }}</li>
+			</a>
+			<a href="{{ path('fos_user_security_logout') }}">
+				<i class="fa fa-sign-out" aria-hidden="true"></i>
+			</a>
+	    {% endif %}
+	    </ul>
+</div>

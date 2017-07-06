@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="app.test">
+        <source>app.test</source>
+        <target>Hello everyone!</target>
+      </trans-unit>
+      <trans-unit id="app.nom">
+        <source>app.nom</source>
+        <target>Name:</target>
+      </trans-unit>
+      <trans-unit id="app.mail">
+        <source>app.mail</source>
+        <target>Email:</target>
+      </trans-unit>
+      <trans-unit id="app.objet">
+        <source>app.objet</source>
+        <target>Object:</target>
+      </trans-unit>
+      <trans-unit id="app.message">
+        <source>app.message</source>
+        <target>Message:</target>
+      </trans-unit>
+      <trans-unit id="app.envoyer">
+        <source>app.envoyer</source>
+        <target>Send in</target>
+      </trans-unit>
+      <!-- bottomLink -->
+	  <trans-unit id="app.langue">
+        <source>app.langue</source>
+        <target>English</target>
+      </trans-unit>
+      <trans-unit id="app.tbdbord">
+        <source>app.tbdbord</source>
+        <target>Dashboard</target>
+      </trans-unit>
+      <!-- navigationLink -->
+      <trans-unit id="app.accueil">
+        <source>app.accueil</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="app.apropos">
+        <source>app.apropos</source>
+        <target>About us</target>
+      </trans-unit>
+      <trans-unit id="app.connexion">
+        <source>app.connexion</source>
+        <target>Log in</target>
+      </trans-unit>
+      <trans-unit id="app.inscription">
+        <source>app.inscription</source>
+        <target>Register</target>
+      </trans-unit>
+      <!-- Body -->
+            <!-- Body accueil -->
+      <trans-unit id="app.accueiltitre">
+        <source>app.accueiltitre</source>
+        <target>Welcome!</target>
+      </trans-unit>
+      <trans-unit id="app.accueilmsg">
+        <source>app.accueilmsg</source>
+        <target>Achieve your goals with rosti.be one way or another while being efficient.</target>
+      </trans-unit>
+            <!-- Body apropos -->
+      <trans-unit id="app.apropostitre">
+        <source>app.apropostitre</source>
+        <target>ICTs are complex. We understand!</target>
+      </trans-unit>
+      <trans-unit id="app.apropostitre1">
+        <source>app.apropostitre1</source>
+        <target>Our goals.</target>
+      </trans-unit>
+      <trans-unit id="app.apropost1contenu1">
+        <source>app.apropost1contenu1</source>
+        <target>Simplify the search of information.</target>
+      </trans-unit>
+      <trans-unit id="app.apropost1contenu2">
+        <source>app.apropost1contenu2</source>
+        <target>Present a simple and easily perceptible content.</target>
+      </trans-unit>
+      <trans-unit id="app.apropost1contenu3">
+        <source>app.apropost1contenu3</source>
+        <target>provide accurate and targetd tricks.</target>
+      </trans-unit>
+      <trans-unit id="app.apropostitre2">
+        <source>app.apropostitre2</source>
+        <target>Contact us</target>
+      </trans-unit>
+
+      <!-- boodyfooterLink -->
+      <!-- bottom -->
+      <trans-unit id="app.btmessage">
+        <source>app.btmessage</source>
+        <target>Message</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

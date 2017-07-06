@@ -1,0 +1,16 @@
+webseite_home_homepage:
+    path:     /
+    defaults: { _controller: WebseiteHomeBundle:Default:index }
+
+webseite_home_index_homepage:
+    path:     /home
+    defaults: { _controller: WebseiteHomeBundle:Default:index }
+
+webseite_home_Aboutuspage:
+    path:     /home/about-us
+    defaults: { _controller: WebseiteHomeBundle:Default:apropos }
+
+webseite_home_notifypage:
+    path:     /home/notify
+    defaults: { _controller: WebseiteHomeBundle:Default:notification }
+    methods:  [GET, POST]
